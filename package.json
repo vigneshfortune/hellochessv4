@@ -4,6 +4,10 @@
   "description": "Live Chess Server",
   "main": "public/index.jsx",
   "repository": "",
+  "engines": {
+    "node": "14.17.0",
+    "npm": "6.14.13"
+},
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "server": "nodemon -e js,ts --exec ./node_modules/.bin/ts-node -- ./server/server.ts",
